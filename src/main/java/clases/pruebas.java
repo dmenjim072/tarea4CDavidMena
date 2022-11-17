@@ -14,7 +14,7 @@ public class pruebas {
         
         Persona juan = new Persona();
         System.out.println(juan);
-        Persona maria = new Persona("Maria", 23, 60.3, 1, );
+        Persona maria = new Persona("Maria", 23, 'M', 60.3, 166);
         
         Serie s1 = new Serie();
         System.out.println(s1);

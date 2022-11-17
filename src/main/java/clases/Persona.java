@@ -144,6 +144,52 @@ public class Persona {
         serie.darLike();
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public String getNIF() {
+        return NIF;
+    }
+
+    public char getSexo() {
+        return sexo;
+    }
+
+    public double getPeso() {
+        return peso;
+    }
+
+    public int getAltura() {
+        return altura;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public void setSexo(char sexo) {
+        this.sexo = sexo;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+    public void setAltura(int altura) {
+        this.altura = altura;
+    }
+    
+    
+
     @Override
     public String toString() {
         return "Persona{" + "nombre=" + nombre + ", edad=" + edad + ", peso=" + peso + ", altura=" + altura + '}';
